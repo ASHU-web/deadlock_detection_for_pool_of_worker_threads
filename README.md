@@ -21,7 +21,7 @@ The above pattern of working will lead to deadlocks among the worker threads. Th
 You should use different heuristics for choosing worker threads to terminate and report which type of heuristic results in the longest and shortest average time between deadlocks. The simulation should continue to run until the user terminates it.
 
 # About the code
-Updating soon before 14 October,2021
+Updating soon before 14 October,2021 along with the codes
 *stay tuned!!*
 
 ## Acknowledgments

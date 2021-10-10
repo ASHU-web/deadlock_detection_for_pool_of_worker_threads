@@ -22,7 +22,7 @@ You should use different heuristics for choosing worker threads to terminate and
 
 # About the code
 Updating soon before 14 October,2021
-*stay tuned
+*stay tuned!!*
 
 ## Acknowledgments
 

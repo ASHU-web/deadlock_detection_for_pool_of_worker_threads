@@ -21,8 +21,30 @@ The above pattern of working will lead to deadlocks among the worker threads. Th
 You should use different heuristics for choosing worker threads to terminate and report which type of heuristic results in the longest and shortest average time between deadlocks. The simulation should continue to run until the user terminates it.
 
 # About the code
-Updating soon before 14 October,2021 along with the codes
-*stay tuned!!*
+Compile the Files using
+
+```bash
+gcc main.c -lpthread -o ipc_demo
+```
+
+
+After that run it in the following way:
+
+```bash
+./ipc_demo max_threads heuristic_type deadlock_interval A B C D E F( ... continued)
+```
+
+| Command               |Significance                                                                                                |
+|.......................|............................................................................................................|
+| max_threads           |Number of threads to be simulated                                                                           |
+| heuristic_type     1  |   for heuristic_type = 1 -- >random thread that is in the deadlock is deleted and restarted                |
+| heuristic_type     2  |   for heuristic_type = 2 -- > Maximum resource thread is restarted continuously till the deadlock is freed.|
+|deadlock_interval      | time interval after which deadlock will check whether there is a deadlock in the system or not             |
+|A B C D ...            | These arguements are the number of instances of the resources available to the threads                     |
+
+
+Note: Minimum 2 resources should be available for the simulator to work.
+
 
 ## Acknowledgments
 

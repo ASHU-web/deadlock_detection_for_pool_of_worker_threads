@@ -35,7 +35,7 @@ After that run it in the following way:
 ```
 
 | Command               |Significance                                                                                                |
-|_______________________|____________________________________________________________________________________________________________|
+|------------- |------------- |
 | max_threads           |Number of threads to be simulated                                                                           |
 | heuristic_type     1  |   for heuristic_type = 1 -- >random thread that is in the deadlock is deleted and restarted                |
 | heuristic_type     2  |   for heuristic_type = 2 -- > Maximum resource thread is restarted continuously till the deadlock is freed.|
